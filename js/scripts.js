@@ -18,9 +18,5 @@ let pokemonList = [
 // }
 
 for (let i=0; i < pokemonList.length; i++) {
-//  document.write(pokemonList.name(i) + " (height:) " + pokemonList.height(i));
-//};
-  document.write(pokemonList.name);
+ document.write("Name: " + pokemonList[i].name + " (Height: " + pokemonList[i].height +". ");
   };
-
-console.log(pokemonList.name(1));
