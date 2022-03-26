@@ -17,11 +17,11 @@ let pokemonList = [
 //   console.log('You are about to become a child again!')
 // }
 
-//add the code to display the anmes and height of the pokemons
+//add the code to display the names and height of the pokemons
 for (let i=0; i < pokemonList.length; i++) {
     document.write("Name: " + pokemonList[i].name + " (Height: " + pokemonList[i].height +"). ");
     if (pokemonList[i].height > "7") {
 		document.write("<span class =big_pokemon> - Wow, that's big!</span>");
 	  }
-	   document.write("<br>");
+	  document.write("<br>");
 };
