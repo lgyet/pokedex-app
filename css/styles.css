@@ -1,0 +1,23 @@
+
+:root {
+	--background-color: #85fdcb;
+	--body-text-color: #a24a6e;
+	--highlight-text-color: #cb1e00;
+}
+
+body {
+	background: var(--background-color);
+  background-image: "img/gengar.jpg";
+	color: var(--body-text-color);
+	font-family: 'Red Hat Mono', cursive;
+	font-weight: 100;
+	font-size: 18px;
+	line-height: 2;
+	margin: 10px;
+  text-align: center;
+}
+
+.big_pokemon {
+	color: var(--highlight-text-color);
+  font-weight: bold;
+}

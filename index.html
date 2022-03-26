@@ -5,21 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Simple JS App</title>
     <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Mono&display=swap" rel="stylesheet">
   </head>
   <body>
-    <h1>Your daily horoscope</h1>
-    <p>Just so you know, there is code being executed in the background! ;)</p>
-    <button type="button">What's your age?</button>
-    <input type="text">
-    <br>
-    <br>
-    <form action="/action_page.php" method="get">
-      <label for="fname">First name:</label>
-      <input type="text" id="fname" name="fname"><br><br>
-      <label for="lname">Last name:</label>
-      <input type="text" id="lname" name="lname"><br><br>
-      <input type="submit" value="Submit">
-    </form>
+    <header class="page-header">
+  		<a href="index.html"><img class="page-header__item" src="img/gengar.jpg" width="100" height="100" alt="logo"></a>
+    </header>
+    <hr>
+    <h1>
+      Your daily pokemon quiz!
+    </h1>
      <script src="js/scripts.js"></script>
+     <hr>
+     <h2>
+       We want to get to know the winners better! Please, type in your answers below! =)
+     </h2>
+     <button type="button">What's your age?
+     </button>
+     <input type="text">
+       <br>
+
+       <!-- ask about the person answering the quiz -->
+       <form action="/action_page.php" method="get">
+         <label for="fname">First name:</label>
+         <input type="text" id="fname" name="fname"><br>
+         <label for="lname">Last name:</label>
+         <input type="text" id="lname" name="lname"><br>
+         <input type="submit" value="Submit">
+       </form>
+       <hr>
+     <hr>
+     <footer>
+     </footer>
+       <script src="js/tota11y.min.js"></script>
   </body>
 </html>
